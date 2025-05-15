@@ -10,7 +10,7 @@ const sections = [
 
 const Header: React.FC = () => {
   const [visible, setVisible] = useState(false);
-  const [lastScroll, setLastScroll] = useState(0);
+  const [, setLastScroll] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
